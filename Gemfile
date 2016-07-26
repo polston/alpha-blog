@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0'
 
 gem 'bcrypt', '~> 3.1.7'
+
+gem 'will_paginate', github: 'jonatack/will_paginate'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
